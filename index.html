@@ -1,454 +1,176 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!DOCTYPE html>
+   <html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="UTF-8"> 
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-    <title>German Portfolio</title>
-<!--
-
-Template 2088 Big City
-
-http://www.tooplate.com/view/2088-big-city
-
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
-    <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/hero-slider-style.css">                              
-    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                 
-    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="css/tooplate-style.css">                                   
-    <!-- Tooplate style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-</head>
-
+    </head>
     <body>
+  <div class="navbar">
+                             <a class="navbar-brand text-uppercase" href="#">German</a>
+							 
+<div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown()">Menu</button>
+    <div class="dropdown-content" id="Dropdown">
+   <div class="menulink"><button class="pager" onclick="toggleAbout()"><a href="#">About</a></button></div>
+  <div class="menulink"><button class="pager" onclick="toggleGallery()"><a href="#">Gallery</a></button></div>
+  <div class="menulink"><button class="pager" onclick="toggleContact()"><a href="#">Contact</a></button></div>
+  </div>
+</div>
+    <ul>
+      <li class="page_item"> <button class="pager" onclick="toggleAbout()"><a href="#">About</a></button></li>
+      <li class="page_item"> <button class="pager" onclick="toggleGallery()"><a href="#">Gallery</a></button></li>
+      <li class="page_item"> <button class="pager" onclick="toggleContact()"><a href="#">Contact</a></button></li>
+    </ul>
 
-        <div class="cd-bg-video-wrapper" data-video="video/bangkok-city">
-            <!-- video element will be loaded using jQuery -->
-        </div> <!-- .cd-bg-video-wrapper -->
-        
-        <!-- Content -->
-        <div class="cd-hero">
 
-            <!-- Navigation -->        
-            <div class="cd-slider-nav">
-                <div class="container">
-                    <nav class="navbar">
-                        <div class="tm-navbar-bg">                            
-                            <a class="navbar-brand text-uppercase" href="#">German</a>
-                            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
-                                &#9776;
-                            </button>
-                            <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item active selected">
-                                        <a class="nav-link" href="#0" data-no="1">About <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="2">Projects</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="3">Overview</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="4">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>                        
-                        </div>
-                    </nav>
-                </div>                
-            </div> 
+  </div>
+  
+<div class="about" id="aboutsivu">
 
-            <ul class="cd-hero-slider">  <!-- autoplay -->
-
-                <!-- Page 1 Home -->
-				
-				
-				
-				    <li class="selected">
-                    <div class="cd-full-width">
-                        <div class="container js-tm-page-content tm-section-margin-t" data-page-no="2">
+                                <div class="col-12">
                             <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="tm-flex">
 
-                                        <div class="col-lg-6 tm-margin-b tm-2-col-left">
                                             <div class="tm-bg-white tm-textbox-padding tm-height-100">
                                                 <h2 class="about-title">About Me</h2>
-                                            <div class="tm-bg-dark-blue-small text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                            <div class="tm-bg-dark-blue-small">
                                                 <p class="tm-text">My name is German Tishchenko and I am a 20 year old game developer, programmer and technology enthusiast. Game development has been my passion ever since I hit 4rd grade and made my first project in Scratch. In my free time I like to develop game modifications and learn new skills in a wide range of fields</p>                                            
-                                            </div>                                              </div>                                            
-                                        </div>
+                                            </div></div>                                            
 
-                                        <div class="col-lg-6 tm-margin-b tm-2-col-right">
+                                         <div class="col-4">
+                                            <div class="tm-bg-white tm-1">
+                                            <div class=" tm-1">
 
-                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
                                                 <h2 class="about-title">Education</h2>
-                                            <div class="tm-bg-dark-blue-small text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                            <div class="tm-bg-dark-blue-small">
                                                 <p class="tm-text"> I graduated from Stadin AO, Helsinki Vocational College and Adult Institute with a degree in Information and Telecommunications Technology (fin.Tieto- ja viestintätekniikan perustutkinto). I'm currently studying in South-Eastern Finland University of Applied Sciences (Xamk) in the field of game technology</p>                                            
-                                            </div>                                              </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="tm-flex">
+                                            </div></div> </div>    </div>   </div> </div> 
 
-                                        <div class="col-lg-6 tm-margin-b tm-2-col-left">
+
+
+                                <div class="col-12">
+
+                            <div class="row">
+                                        <div class="col-4">
+
                                             <div class="tm-bg-white tm-textbox-padding tm-height-100">
                                                 <h2 class="about-title">Work Experience</h2>
-                                            <div class="tm-bg-dark-blue-small text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                            <div class="tm-bg-dark-blue-small">
                                                 <p class="tm-text">I've worked in Contact Service company as a booker in November 2023. The work is customer acquisition in the financial sector by telephone through the call system. While not related to my speciality this job has given me a lot of expertise in communication</p>                                            
-                                            </div>                                              </div>                                            
-                                        </div>
+                                            </div></div>    </div>                                           
 
-                                        <div class="col-lg-6 tm-margin-b tm-2-col-right">
+                                       <div class="col-4">
+                                            <div class="tm-bg-white tm-1">
+                                            <div class=" tm-1">
 
-                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
                                                 <h2 class="about-title">Skills</h2>
-                                            <div class="tm-bg-dark-blue-small text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                            <div class="tm-bg-dark-blue-small">
                                                 <p class="tm-text">I have experience in making websites. I have created versatile and professional websites while learning. My skills include HTML, CSS, PHP, JavaScript, C# and C. In my most recent project, I designed and implemented a website, which offers a user-friendly interface and a responsive design.</p>                                            
-                                            </div>                                              </div>
-                                        </div>  
-                                    </div>
-                                </div>                                
-                            </div>
+                                            </div></div> </div>    </div>   </div> </div>    
 
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="tm-flex">
-                                        <div class="col-lg-4 tm-sm-margin-b">
+
+
+                            <div class="row2">
 									        <div class="space-right">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
                                                 <h2 class="skills">C <br> 55%</h2>
                                             </div>
                                             </div>
 
-                                        </div> 
-                                        <div class="col-lg-4 tm-margin-b">
-													        <div class="space-center">
-
+									        <div class="space-center">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
                                                 <h2 class="skills">JS<br> 74%</h2>
-                                            </div>                                            </div>
-
-                                        </div>
-                                        <div class="col-lg-4 tm-sm-margin-b">
+                                            </div>                                                </div>    
 									        <div class="space-left">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
-                                                <h2 class="skills">C# 68%</h2>
+                                                <h2 class="skills">C# <br> 68%</h2>
                                             </div>
-                                            </div>
-
-                                        </div>                                      
-                                    </div>
-                                </div>                                
+                                            </div>                             
                             </div>
 
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="tm-flex">
-                                        <div class="col-lg-4 tm-sm-margin-b">
+                            <div class="row2">
 									        <div class="space-right">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
                                                 <h2 class="skills">CSS 90%</h2>
                                             </div>
                                             </div>
 
-                                        </div> 
-                                        <div class="col-lg-4 tm-sm-margin-b">
-																							        <div class="space-center">
-
+									        <div class="space-center">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
                                                 <h2 class="skills">HTML 88%</h2>
                                             </div>                                                </div>    
-
-                                        </div>
-                                        <div class="col-lg-4 tm-sm-margin-b">
 									        <div class="space-left">
                                             <div class="tm-bg-dark-blue-box tm-white-border tm-textbox-padding tm-height-100">
                                                 <h2 class="skills">PHP 65%</h2>
                                             </div>
-                                            </div>
-
-                                        </div>                                        
-                                    </div>
-                                </div>                                
+                                            </div>                             
                             </div>
-                        </div>                                                
-                    </div> <!-- .cd-full-width -->
+        
+                                               
+                            </div>
+							
+<div class="gallery" id="gallerysivu">
+                               <div class="col-12">
+                            <div class="row3">
 
-                </li>				
-				
-				
-				
-				
-				
-				
-				
-				
-            
-                
-                <!-- Page 2 About -->
-                <li>
-                    <div class="cd-full-width">                        
-                        <div class="container js-tm-page-content tm-section-margin-t" data-page-no="3">
+                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
+                                             <h2 class="gallery-title">   <button class="pager" onclick="toggleOverview()">Five Nights of Iron</button></h2> 
+                                            <div class="tm-bg-dark-blue-big">
+											                                            <div class="grid-item grid-item-big">
 
-                            <div class="row">                                
-                                <div class="col-xs-12">
-                                    <div class="tm-img-gallery-container">
-
-                                        <div class="tm-img-gallery gallery-second">
-                                        <!-- Gallery Two pop up connected with JS code below -->
-
-                                            <div class="tm-gallery-title-container">
-                                                <div class="tm-bg-dark-gray tm-white-border tm-textbox-padding tm-margin-b">                                    
-                                                    <h2 class="tm-text-title tm-gallery-title tm-margin-b-0"><span class="galleryheader">Grade System</span></h2>                                        
-                                                </div>
-                                                <div class="tm-bg-white-half"></div>
-                                            </div>
-
-                                            <div class="grid-item grid-item-big">
-                                                <a href="img/tm-img-05.jpg">                                                
-                                                    <img src="img/tm-img-05-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
-                                                </a>
-                                            </div>
-                                   <div class="col-lg-4 tm-sm-margin-b">
-                                            <div class="gallerytext">
-                                                <p class="tm-text">As a part of my programming course I made a site using PHP, MuSQL, HTML, CSS and Javascript.</p>
-			                                     <p class="tm-text">In this site students can log in to view their grades for different tests and courses. Teachers can use this site to create new tests, courses and students, all of whom are registered in the database.</p>
-			                                     <p class="tm-text">The project was supposed to be made by 5 people, but unfortunately none of them were active, so I had to do the entire project by myself.</p>
-
-                                            </div>    
-                                        </div>
-                        
-                                        </div>  
-
-										
-                                    </div> 
-									
-	                                    <div class="tm-img-gallery-container">
-
-                                        <div class="tm-img-gallery gallery-second">
-                                        <!-- Gallery Two pop up connected with JS code below -->
-
-                                            <div class="tm-gallery-title-container">
-                                                <div class="tm-bg-dark-gray tm-white-border tm-textbox-padding tm-margin-b">                                    
-                                                    <h2 class="tm-text-title tm-gallery-title tm-margin-b-0"><span class="galleryheader">5 Nights of Iron</span></h2>                                        
-                                                </div>
-                                                <div class="tm-bg-white-half"></div>
-                                            </div>
-
-                                            <div class="grid-item grid-item-big">
-                                                <a href="img/tm-img-07.jpg">                                                
+										        <a href="img/tm-img-07.jpg">                                                
                                                     <img src="img/tm-img-07-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
-                                                </a>
-                                            </div>
-                                   <div class="col-lg-4 tm-sm-margin-b">
-                                            <div class="gallerytext">
-                                                <p class="tm-text">A short modification for the game Hearts of Iron 4 made by Clausewitz Engine written in C++.</p>
-			                                     <p class="tm-text">The goal of the project was to turn a World War 2 grand strategy game into a first-person horror game, completely overhauling all existing mechanics and the genre itself.</p>
-			                                     <p class="tm-text">The project was made by me in 3 months with some voice acting help from volunteers.</p>
+                                                </a>							                                             <p >Logo of the modification</p>                                            
+			   </div>
 
-                                            </div>    
-                                        </div>
-                        
-                                        </div>  
+                                                <p class="tm-text">A short modification for the game Hearts of Iron 4 made by Clausewitz Engine written in C++<br><br><br></p>
+			                                     <p class="tm-text">The goal of the project was to turn a World War 2 grand strategy game into a first-person horror game, completely overhauling all existing mechanics.<br><br></p>
+			                                     <p class="tm-text">The project was made by me in 3 months with some voice acting help from volunteers.<br><br><br></p>
+                                           
+										   </div>
+											
+			
+											
+											</div>                                            
+  </div> </div> 
+  
+                                <div class="col-12">
+                            <div class="row3">
 
-										
-                                    </div> 
-																	
-									
-									
-									
-									
-									
-									
-									<!-- .tm-img-gallery-container -->                                     
-                                </div>  <!-- col-xs-12 -->                          
-                            </div> <!-- row --> 
-                        </div> <!-- .container -->
-                                                    
-                    </div> <!-- .cd-full-width -->
-                    
-                </li>
-                
-				
-				
-               
-                <!-- Page 3 Gallery -->
+                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
+                                             <h2 class="gallery-title">   <button class="pager" onclick="toggleOverview2()">Grade System</button></h2> 
+                                            <div class="tm-bg-dark-blue-big">
+											                                            <div class="grid-item grid-item-big">
 
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				    <li>
-                    <div class="cd-full-width">
-                        <div class="container js-tm-page-content tm-page-1 tm-section-margin-t-small" data-page-no="1">
-                            <div class="row">                            
-                                <div class="col-xs-12">
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container">
-                                                <h2 class="home-title">Five Nights of Iron</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">In an effort to better understand the game engine of Hearts of Iron 4 I've challenged myself to recreate horror game Five Nights at Freddy's in HOI4 engine</p>
-                                                    <p class="tm-text tm-home-description">The project was conducted solely by me in 3 months with some outside help with voice acting. The mod had gained over 50 000 views on Steam Workshop page, but unfortunately it was taken down for unknown reasons</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </div>
-                                </div>
-                            </div>
-							<div class="homeimage">
-                                                <img src="img/tm-img-07-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
-							</div>
-							
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container-small">
-                                                <h2 class="home-title-small">Overview</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">Five Nights of Iron was an modification for the game Hearts of Iron 4 conducted in Clausewitz engine and available through Steam Workshop. Hearts of Iron 4 is a grand strategy game set in World War 2 where you have to play as one of the countries militarily defeat the enemy side. My job consisted of modifying the existing scripts and visual elements, as well as completely overhauling game mechanics to turn it into a first-person horror game</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </div>
-									
-									
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container-small">
-                                                <h2 class="home-title-small">Challenges</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">Modifying pre-existing code was more challenging than making a game from scratch, as I was limited by what I was able to do by the tools I had in my disposal. Hearts of Iron 4 operates using scripts that are made by developers and shared to the modders, as such my toolkit was fairly limited and I had to come up with innovative solutions. For example it was impossible for me to remove the "Pause" function, so I made the "Unpause" button cover the entire screen so it would be impossible to play unpaused.</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </d iv>
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container-small">
-                                                <h2 class="home-title-small">Content</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">Apart from the code I had to completely overhaul the visual aspect of the game. I used Photoshop and the game Garry's Mod to create assets and the scenery of the game. Below is the office of the game, which was made with different pictures taken from the internet and modified in Photoshop to fit in the mod. It uses a combination of random stock photos with lowered contrast and low poly objects from other games</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </div>									
-						
+                                                     <img src="img/tm-img-05-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">     <p >Website's screenshot</p>                                            
+ 						   </div>
 
-
-
-
-
-
-
-							<div class="homeimage">
-                                                <img src="img/tm-img-06-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
-							</div>
-							
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container-small">
-                                                <h2 class="home-title-small">Testing</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">The game was tested multiple times in order to find any bugs or problems with balance. The game Hearts of Iron 4 provides an error document, which I used to find problems with the code. I also received feedback from the players and made occasional fixes with new patches</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </div>
-									
-									
-                                    <div class="tm-home-container-outer">
-                                        <div class="tm-home-container">
-                                            <div class="tm-home-title-container-small">
-                                                <h2 class="home-title-small">Conclusion</h2>    
-                                            </div>
-                                            <div class="tm-home-description-container tm-bg-dark-blue">
-                                                <div class="text-xs-left tm-textbox">                                            
-                                                    <p class="tm-text tm-home-description">In conclusion I have to say that I didn't expect this project to receive as much attention as it did. Most of it came from the attachment to the already existing IP's (Hearts of Iron, Five Nights at Freddy's) and the unique gameplay I was able to provide. </p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                        <div class="tm-home-container-bg"></div>
-                                    </div>
-<div class="video-wrapper">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/o2eSSUbI1EQ?si=tdDWKLfcRtz2BSfI"></iframe>
+                                                <p class="tm-text">As a part of my programming course I made a site using PHP, MuSQL, HTML, CSS and Javascript.<br><br><br></p>
+			                                     <p class="tm-text">In this site students can log in to view their grades for different tests and courses. Teachers can use this site to create new tests, courses and students, all of whom are registered in the database.<br><br></p>
+			                                     <p class="tm-text">The project was supposed to be made by 5 people, but unfortunately none of them were active, so I had to do the entire project by myself.<br><br><br><br></p>
+                                           
+										   </div>
+											
+			
+											
+											</div>                                            
+  </div> </div>  
 </div>
-
-											  </div>
-
-	
-
-
-                    </div> <!-- .cd-full-width -->
-					
-                </li>
-                <!-- Page 4 Contact -->
-                <li>
-                    <div class="cd-full-width">
-                        <div class="container js-tm-page-content tm-section-margin-t-small" data-page-no="4">                            
-                            <div class="tm-contact-page">
-                                <div class="row tm-margin-b">
-                                    <div class="col-xs-12">
-                                        <div class="contact-header">
-                                            <h2 class="form-title">Contact Me</h2>
+ 
+<div class="contact" id="contactsivu">
+                                       <div class="contact-header">
+                                            <p class="form-title">Contact Me</p>
                                         </div>
-                                    </div>
-                                </div>
-                                
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="tm-flex tm-contact-container tm-bg-dark-blue">                                
+                                         <div class="tm-flex tm-contact-container tm-bg-dark-blue">                                
                                             <div class="text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
                                                 <p class="tm-text">If you wish to contact me you can do so by submitting a form. Unfortunately I won't be able to receive your message because this feature has not yet been implemented.</p>                                                                                                                                                 
                                                 <p class="tm-text"><br>My contacts are:<br> Keisarinmajantie 10 h 103,<br> 48230 Kotka<br></p>
                                                 <p class="tm-text">Tel: 04578355952<br>Email: Infernal1447@gmail.com</p>
                                             </div>
 
-                                            <div class="text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                                <!-- contact form -->
-                                                <form action="index.html" method="post" class="tm-contact-form">
+                                                 <form action="index.html" method="post" class="tm-contact-form">
                                                     <div class="form-group">
                                                         <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                                                     </div>  
@@ -464,147 +186,136 @@ http://www.tooplate.com/view/2088-big-city
                                                     </div>
                                                     <button type="submit" class="tm-submit-btn">Send</button>                                                
                                                 </form> 
-                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div> <!-- .cd-full-width -->
-                </li>
-            </ul> <!-- .cd-hero-slider -->
-            
-            <footer class="tm-footer">            
-                <p class="tm-copyright-text pull-xs-right">Copyright &copy; <span class="tm-current-year">2017</span> German            
-                | Design: German Tishchenko</p>
-            </footer>                    
-        </div> <!-- .cd-hero -->        
+                                 </div>
+ </div>
 
-        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
-        <div id="loader-wrapper">            
-            <div id="loader"></div>
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        
-        <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="js/tether.min.js"></script>                <!-- http://tether.io/ -->
-        <script src="js/isInViewport.min.js"></script>          <!-- isInViewport js (https://github.com/zeusdeux/isInViewport) -->
-        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
-        
-        <script>
+<div class="overview" id="overviewsivu">
 
-            function adjustHeightOfPage(pageNo) {
 
-                var offset = 80;
-                var pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();
+                                             <h2 class="overview-title">Five Nights of Iron</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>In an effort to better understand the game engine of Hearts of Iron 4 I've challenged myself to recreate horror game Five Nights at Freddy's in HOI4 engine</p>
+                                                    <p>The project was conducted solely by me in 3 months with some outside help with voice acting. The mod had gained over 50 000 views on Steam Workshop page, but unfortunately it was taken down for unknown reasons</p>
+                                           
+										   </div> 
+							<div class="viewimage">
+                                                <img src="img/tm-img-07-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
+                                             <p >Logo of the modification</p>                                            
+						</div>
+							
+                                             <h2 class="overview-title">Overview</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>Five Nights of Iron was an modification for the game Hearts of Iron 4 conducted in Clausewitz engine and available through Steam Workshop. Hearts of Iron 4 is a grand strategy game set in World War 2 where you have to play as one of the countries militarily defeat the enemy side. My job consisted of modifying the existing scripts and visual elements, as well as completely overhauling game mechanics to turn it into a first-person horror game</p>
+                                            </div> 
+                                             <h2 class="overview-title">Challenges</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>Modifying pre-existing code was more challenging than making a game from scratch, as I was limited by what I was able to do by the tools I had in my disposal. Hearts of Iron 4 operates using scripts that are made by developers and shared to the modders, as such my toolkit was fairly limited and I had to come up with innovative solutions. For example it was impossible for me to remove the "Pause" function, so I made the "Unpause" button cover the entire screen so it would be impossible to play unpaused.</p>
+                                            </div>
+                                             <h2 class="overview-title">Content</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>Apart from the code I had to completely overhaul the visual aspect of the game. I used Photoshop and the game Garry's Mod to create assets and the scenery of the game. Below is the office of the game, which was made with different pictures taken from the internet and modified in Photoshop to fit in the mod. It uses a combination of random stock photos with lowered contrast and low poly objects from other games</p>
+                                            </div>
 
-                if($(window).width() >= 992) { offset = 120; }
-                else if($(window).width() < 480) { offset = 40; }
-               
-                // Get the page height
-                var totalPageHeight = 335 + $('.cd-slider-nav').height()
-                                        + pageContentHeight + offset
-                                        + $('.tm-footer').height();
+							<div class="viewimage">
+                                                <img src="img/tm-img-06-tn.jpg" alt="Image" class="img-fluid tm-img-no-border">                                              
+                                             <p >In-game office of the mod</p>                                            
+						</div>											
+								                                             <h2 class="overview-title">Testing</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>The game was tested multiple times in order to find any bugs or problems with balance. The game Hearts of Iron 4 provides an error document, which I used to find problems with the code. I also received feedback from the players and made occasional fixes with new patches</p>
+                                            </div> 
+                                             <h2 class="overview-title">Conclusion</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                                    <p>In conclusion I have to say that I didn't expect this project to receive as much attention as it did. Most of it came from the attachment to the already existing IP's (Hearts of Iron, Five Nights at Freddy's) and the unique gameplay I was able to provide. </p>
+                                            </div>
+           		
+<div class="video">
+  <iframe class="iframe" src="https://www.youtube.com/embed/o2eSSUbI1EQ?si=tdDWKLfcRtz2BSfI"></iframe>
+</div>						
+											
+</div>
 
-                // Adjust layout based on page height and window height
-                if(totalPageHeight > $(window).height()) 
-                {
-                    $('.cd-hero-slider').addClass('small-screen');
-                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
-                }
-                else 
-                {
-                    $('.cd-hero-slider').removeClass('small-screen');
-                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
-                }
-            }
+<div class="overview2" id="overview2sivu">
 
-            function uploadVideo() {
 
-                var videoWrapper = $('.cd-bg-video-wrapper');
-                if( videoWrapper.is(':visible') ) {
-                    // if visible - we are not on a mobile device 
-                    var videoUrl = videoWrapper.data('video'),
-                        
-                    video = $('<video autoplay loop><source src="'+videoUrl+'.mp4" type="video/mp4" /></video>');
-                    video.appendTo(videoWrapper);
+                                             <h2 class="overview-title">TODO</h2>
+                                            <div class="tm-bg-dark-blue-mid">
+                                             <p > This part is unfinished. This part is unfinished. This part is unfinished. This part is unfinished. This part is unfinished. This part is unfinished. This part is unfinished. </p>                                            
+                                            </div> 
+ 
+							
+ 					
+											
+</div>
 
-                    // play video if first slide
-                    if(videoWrapper.parent('.cd-bg-video.selected').length > 0) video.get(0).play();                 
-                }
-            }
-
-            // Everything is loaded including images.            
-            $(window).load(function(){
-
-                adjustHeightOfPage(1); // Adjust page height
-
-                // Background Video
-                if($( window ).width() > 800) {
-                    uploadVideo();
-                }
-
-                /* Gallery One pop up
-                -----------------------------------------*/
-                $('.gallery-first').magnificPopup({
-                    delegate: 'a', // child items selector, by clicking on it popup will open
-                    type: 'image',
-                    gallery:{enabled:true}                
-                });
-
-                /* Gallery Two pop up
-                -----------------------------------------*/
-                $('.gallery-second').magnificPopup({
-                    delegate: 'a', // child items selector, by clicking on it popup will open
-                    type: 'image',
-                    gallery:{enabled:true}                
-                });
-				
-                /* Collapse menu after click 
-                -----------------------------------------*/
-                $('#tmNavbar a').click(function(){
-                    $('#tmNavbar').collapse('hide');
-
-                    adjustHeightOfPage($(this).data("no")); // Adjust page height       
-                });
-
-                /* Browser resized 
-                -----------------------------------------*/
-                $( window ).resize(function() {
-                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
-                    
-                    // wait 3 seconds
-                    setTimeout(function() {
-                        adjustHeightOfPage( currentPageNo );
-                    }, 3000);
-
-                    if($( window ).width() > 800) {
-                       uploadVideo();
-                    }
-                    
-                });
-
-                // Play video only when visible
-                // https://stackoverflow.com/questions/21163756/html5-and-javascript-to-play-videos-only-when-visible
-                $('video').each(function(){
-                    if ($(this).is(":in-viewport")) {
-                        $(this)[0].play();
-                    } else {
-                        $(this)[0].pause();
-                    }
-                })
-        
-                // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
-                $('body').addClass('loaded');
-                $('.tm-current-year').text(new Date().getFullYear());
-                           
-            });
-
-        </script>            
-
-</body>
-</html>
+    </body>
+	
+	<script>
+    function toggleDropdown() {
+        var dropdownContent = document.getElementById("Dropdown");
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    }
+	
+    function toggleAbout() {
+        var dropdownContent = document.getElementById("Dropdown");
+	dropdownContent.style.display = "none";
+        var aboutsivu = document.getElementById("aboutsivu");
+            aboutsivu.style.display = "block";
+        var gallerysivu = document.getElementById("gallerysivu");
+            gallerysivu.style.display = "none";
+        var contactsivu = document.getElementById("contactsivu");
+            contactsivu.style.display = "none";  
+			        var overviewsivu = document.getElementById("overviewsivu");
+            overviewsivu.style.display = "none";  
+        var overview2sivu = document.getElementById("overview2sivu");
+            overview2sivu.style.display = "none";  
+  }
+    function toggleGallery() {
+	        var dropdownContent = document.getElementById("Dropdown");
+	dropdownContent.style.display = "none";
+        var aboutsivu = document.getElementById("aboutsivu");
+            aboutsivu.style.display = "none";
+        var gallerysivu = document.getElementById("gallerysivu");
+            gallerysivu.style.display = "block";
+        var contactsivu = document.getElementById("contactsivu");
+            contactsivu.style.display = "none";  
+			        var overviewsivu = document.getElementById("overviewsivu");
+            overviewsivu.style.display = "none";  
+        var overview2sivu = document.getElementById("overview2sivu");
+            overview2sivu.style.display = "none";  
+  }
+    function toggleContact() {
+	        var dropdownContent = document.getElementById("Dropdown");
+	dropdownContent.style.display = "none";
+        var aboutsivu = document.getElementById("aboutsivu");
+            aboutsivu.style.display = "none";
+        var gallerysivu = document.getElementById("gallerysivu");
+            gallerysivu.style.display = "none";
+        var contactsivu = document.getElementById("contactsivu");
+            contactsivu.style.display = "block";  
+        var overviewsivu = document.getElementById("overviewsivu");
+            overviewsivu.style.display = "none";  
+        var overview2sivu = document.getElementById("overview2sivu");
+            overview2sivu.style.display = "none";  
+  }
+    function toggleOverview() {
+ 
+        var gallerysivu = document.getElementById("gallerysivu");
+            gallerysivu.style.display = "none";
+        var overviewsivu = document.getElementById("overviewsivu");
+            overviewsivu.style.display = "block";  
+  }  
+    function toggleOverview2() {
+ 
+        var gallerysivu = document.getElementById("gallerysivu");
+            gallerysivu.style.display = "none";
+        var overview2sivu = document.getElementById("overview2sivu");
+            overview2sivu.style.display = "block";  
+  }  
+</script>
+   </html>
