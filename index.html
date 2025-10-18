@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>German Tishchenko - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="portfolio.css" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="scanlines"></div>
+    <div id="particles"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3344DD;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#8C9EC5;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="20,2 38,14 38,26 20,38 2,26 2,14" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="20,8 32,16 32,24 20,32 8,24 8,16" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">GERMAN TISHCHENKO</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text-rotator">
+                <div class="text-set active">
+                    <h1 class="glitch-text" data-text="GERMAN TISHCHENKO">GERMAN TISHCHENKO</h1>
+                    <p class="subtitle">Welcome to my personal portfolio.</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="GAME DEVELOPER">GAME DEVELOPER</h1>
+                    <p class="subtitle">Innovator and trailblazer.</p>
+                </div>
+ 
+            </div>
+        </div>
+        <div class="cta-container">
+            <a href="#skills" class="cta-button cta-primary">View My Skills</a>
+            <a href="#about" class="cta-button cta-secondary">Learn About Me</a>
+        </div>
+    </section>
+
+    <section class="features" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="features-container">
+            <div class="feature-tabs">
+                <div class="tab-item active" data-tab="web">
+                    <span class="tab-icon">🌐</span>
+                    <span>Web Development</span>
+                </div>
+                <div class="tab-item" data-tab="programming">
+                    <span class="tab-icon">💻</span>
+                    <span>Programming</span>
+                </div>
+                <div class="tab-item" data-tab="gamedev">
+                    <span class="tab-icon">🎮</span>
+                    <span>Game Development</span>
+                </div>
+            </div>
+            <div class="feature-content">
+                <div class="content-panel active" id="web">
+                    <h3>Versatile Web Solutions</h3>
+                    <p>I have experience in making websites and have created versatile and professional projects while learning. My skills allow me to build responsive, user-friendly interfaces from the ground up.</p>
+                    <ul class="feature-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="programming">
+                    <h3>Core Programming Expertise</h3>
+                    <p>In addition to web technologies, I am proficient in powerful, general-purpose programming languages suitable for a wide range of applications, from system software to game engines.</p>
+                    <ul class="feature-list">
+                        <li>C#</li>
+                        <li>C</li>
+                        <li>MySQL for Databases</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="gamedev">
+                    <h3>Passion for Game Creation</h3>
+                    <p>I enjoy developing new games and constantly learning new skills in this dynamic field.</p>
+                    <ul class="feature-list">
+                        <li>3 years of experienced with Unity</li>
+                        <li>Accustomed with Blender software</li>
+                        <li>5 years of experience with Photoshop</li>
+                        <li>Strong problem-solving abilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Who I Am</h2>
+                <p>My name is German Tishchenko and I am a game developer, programmer and technology enthusiast. Game development has been my passion ever since I hit 4th grade and made my first project in Scratch.</p>
+                <p>In my free time I like to develop game modifications and learn new skills in a wide range of fields.</p>
+            </div>
+            <div class="about-visual">
+                <div class="about-graphic"></div>
+            </div>
+        </div>
+        
+        <div class="about-content" style="margin-top: 80px;">
+            <div class="about-visual">
+                <div class="about-graphic-alt">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Education & Experience</h2>
+                <p><strong>Education:</strong> I graduated from Stadin AO, Helsinki Vocational College with a degree in Information and Telecommunications Technology. I'm currently studying at South-Eastern Finland University of Applied Sciences (Xamk) in the field of game technology.</p>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="map-container project-item">
+                <div class="project-image" style="background-image: url('Images/grade-system.jpg');"></div>
+                <div class="map-placeholder project-info">
+                    <h3>Grade System</h3>
+                    <p>I built a full-stack site using PHP, MySQL, HTML, CSS and Javascript that records students grades.</p>
+                </div>
+                <div class="map-overlay"></div>
+            </div>
+
+            <div class="map-container project-item">
+                <div class="project-image" style="background-image: url('Images/cat-game.png');"></div>
+                <div class="map-placeholder project-info">
+                    <h3>Cat Game</h3>
+                    <p>I designed an interface for a 2D shoot 'em up game.</p>
+                </div>
+                <div class="map-overlay"></div>
+            </div>
+
+            <div class="map-container project-item">
+                <div class="project-image" style="background-image: url('Images/twinstick-shooter.jpg');"></div>
+                <div class="map-placeholder project-info">
+                    <h3>Twinstick Shooter</h3>
+                    <p>I made a game in Unreal Engine where the player is able to move around, shoot, and fight spawning enemies.</p>
+                </div>
+                <div class="map-overlay"></div>
+            </div>
+
+            <div class="map-container project-item">
+                <div class="project-image" style="background-image: url('Images/blender-character.png');"></div>
+                <div class="map-placeholder project-info">
+                    <h3>Blender Character</h3>
+                    <p>I've been practicing Blender by making character models and animations. This fully rigged and animated PS1-style character is my most recent work.</p>
+                </div>
+                <div class="map-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div class="info-details">
+                        <h4>Email</h4>
+                        <p>fgeti002@edu.xamk.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div class="info-details">
+                        <h4>Phone</h4>
+                        <p>+358 12 345 6789</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <p>Kotka, Finland</p>
+                    </div>
+                </div>
+<div class="map-container2">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31481.36449102484!2d26.91575797379761!3d60.46870566896919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4691811523315555%3A0x400b5523c841510!2sKotka!5e0!3m2!1sen!2sfi!4v1678886500000!5m2!1sen!2sfi" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-overlay"></div>
+        </div>
+         </div>            </div>
+
+
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+            <p class="copyright">© 2025 German Tishchenko. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="templatemo-electric-scripts.js"></script>
+</body>
+</html>
